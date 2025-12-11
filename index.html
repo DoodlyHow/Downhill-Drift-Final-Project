@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
+    <!-- Version 3 of p5play -->
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+    </main>
+      <style>
+       
+  canvas {
+    transform: scale(0.7);
+    transform-origin: top left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* behind the text */
+  }
+
+  #gameText {
+    position: absolute;
+    top: 20px;  /* move text where you want */
+    left: 20px;
+    z-index: 10; /* above canvas */
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+</style>
+    <h1> Downhill Drift </h1>
+    <p> here is a game I made which was inspired by the game Tiny Wings  you can prss controls to learn how to play if needed </p>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>
